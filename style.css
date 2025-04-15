@@ -1,0 +1,75 @@
+/* General Reset and Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #005f73;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  /* Section Layout */
+  section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 4px solid #94d2bd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  /* List Styling */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin-bottom: 6px;
+  }
+  
+  /* Contact Info Links */
+  a {
+    color: #0a9396;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Skills Badges Style (if used) */
+  .skill {
+    display: inline-block;
+    background-color: #ee9b00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin: 5px 5px 0 0;
+    font-size: 0.9em;
+  }
+  
